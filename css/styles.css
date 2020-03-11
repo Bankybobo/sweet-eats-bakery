@@ -82,17 +82,22 @@ img {
 }
 
 .container header nav {
-  background-color: rgb(10, 10, 95);
   padding: 10px 10px;
   border-radius: 5px;
 }
 
 .container header nav a {
-margin: 0 10px;
 padding: 0 20px;
 display: inline-block;
 text-decoration: none;
-color: white
+color: white;
+border: 1px solid lightgray;
+padding: 20px;
+border-radius: 20px;
+color: white;
+text-decoration: none;
+margin-bottom: 20px;
+background-color: #F87B99;
 
 }
 
@@ -107,11 +112,9 @@ transition: width .3s;
 .hover-link:hover::after {
 width: 100%;
 transition: width .3s;
-background-color: red;    
+background-color: white;    
 }
 
-/* ======= Create a selector for the about section to have the following styles:
-  margin-top: 20px; */
 .about {
   margin-top: 20px;
 }
